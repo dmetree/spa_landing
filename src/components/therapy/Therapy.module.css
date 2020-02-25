@@ -1,0 +1,196 @@
+
+.therapy{
+    padding: 0px 0px 0px 0px;
+}
+
+.intro{
+    background-color: #EBEBEB;
+    padding: 20px;
+    margin-top: -25px;
+}
+
+.sectionWhite{
+    padding: 20px;
+}
+
+.sectionGrey{
+    padding: 20px;
+    background-color: #EBEBEB;
+}
+
+
+.photoN{
+    width: 100%;
+    min-height: 40vh;
+    background-image: url(./../../res/imgs/mainPhoto.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.regForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 62, 74);
+    padding: 2em;
+}
+
+
+.rank,
+.quote,
+.telItem,
+.btnSignUp{
+    text-align: center;
+    color: white;
+}
+.telItem{
+    display: none;
+}
+
+.btn{
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding: 15px 10px;
+    border: 1px solid white;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    opacity: .7;
+}
+
+.Venz{
+    margin: 40px 0 20px;
+    width: 15vw;
+}
+.VenzWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.VenzText{
+    text-align: center;
+    font-size: large;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .photoN{
+        width: 100%;
+        min-height: 50vh;
+    }
+    
+}
+
+@media only screen and (min-width: 760px) {
+    .firstScreen{
+        box-shadow: 8px 8px 0px 0px #e0e0e0;
+        margin: 0 5px 8px 0;
+    }
+    .photoN{
+        min-height: 60vh;
+        margin: 0;
+    }
+   
+    .quote{
+        font-size: large;
+    }
+    .rank{
+        border-radius: 0 0 40px 40px;
+        font-size: large;
+    }
+    .Venz{
+        margin: 40px 0 20px;
+        width: 10vw;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1020px) {
+    .therapy{
+        box-shadow: 2px 3px 16px 4px rgba(65, 62, 74,0.07);
+    }
+    .firstScreen{
+        display: grid;
+        grid-template-areas:
+        'photoN regForm'
+        'photoN regForm'
+        'photoN regForm';
+        padding: 40px;
+        background-color: white;
+        box-shadow: none;
+    }
+    .photoN{
+        grid-area: photoN;
+        min-width: 45vw;
+        min-height: 500px;
+        box-shadow: 8px 8px 0px 0px #e0e0e0;
+    }
+    .telItem{
+        display: block;
+    }
+   
+    .Venz{
+        margin: 40px 0 20px;
+        width: 6vw;
+    }
+
+    .regForm{
+        grid-area: regForm;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(65, 62, 74);
+        box-shadow: 8px 8px 0px 0px #e0e0e0;
+    }
+
+    h1{
+        color: white;
+    }
+    .rankWeb,
+    .quoteWeb,
+    .telItem,
+    .btnSignUp{
+        text-align: center;
+        color: white;
+    }
+    .quoteWeb{
+        padding: 20px;
+        font-style: italic;
+        font-size: large;
+    }
+
+    .telItem{
+        margin: 20px;
+    }
+    
+    
+   
+    .VenzBlock{
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .firstScreen{
+        padding: 80px 80px;
+    }
+     .photoN{
+        min-width: 45vw;
+    }
+}

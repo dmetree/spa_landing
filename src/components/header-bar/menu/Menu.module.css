@@ -1,0 +1,50 @@
+
+.menuList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.MuiListItem-gutters{
+    padding-left: 15vw;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.menuCall{
+    display: flex;
+    align-items: center;
+    padding: 18px 15px;
+    color: white;
+    background-color: #413D4B;
+}
+
+.menuName {
+    cursor: pointer;
+    padding-right: 5px;
+}
+.menuItem{
+    padding-left: 30vw !important;
+}
+
+@media only screen and (min-width: 760px) {
+    .menuItem{
+        padding-left: 38vw !important;
+    }
+}
+
+
+@media only screen and (min-width: 1020px) {
+    .menuItem{
+        padding-left: 40vw !important;
+    }
+}
+
+

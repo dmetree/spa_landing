@@ -1,0 +1,24 @@
+.footer{
+    bottom: 0;
+    background-color: #413D4B;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footerItem{
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+.pp{
+    font-size: 14px;
+    margin: 40px 0 10px 0;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}

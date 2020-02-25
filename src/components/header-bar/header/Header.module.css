@@ -1,0 +1,30 @@
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    margin: 0 0 0 20px ;
+}
+
+.menuCore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+
+.iphoneIcon{
+    padding-right: 5px;
+}
+.headerPhone{
+    color: white;
+    font-weight: 700;
+}
+
+
+
+@media only screen and (min-width: 760px) {
+   
+}

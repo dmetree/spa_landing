@@ -1,0 +1,88 @@
+
+.subscription{
+    padding: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: large;
+  font-family: BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+}
+
+input[type=submit] {
+    text-align: center;
+    /* color: white; */
+    font-size: large;
+    padding: 15px 10px;
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 0px 0px #413e4a;
+}
+
+input[type=submit]:hover {
+  background-color: #413e4a;
+  color: white;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline-offset: 0px !important;
+    outline: none !important;
+    box-shadow: 3px 3px 0px 0px #413e4a;
+}
+
+.btnWrapper{
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    text-align: center;
+    color: black;
+    font-size: large;
+    padding: 15px 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 0px 0px #413e4a;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    opacity: .4;
+    box-shadow: none;
+}
+
+
+.subject{
+    height: 40vh;
+}
+
+@media only screen and (min-width: 500px) {
+    .btnWrapper{
+        width: 60px;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .subscription{
+        padding: 40px 100px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1280px) {
+    .subscription{
+        padding: 40px 160px;
+    }
+     .btnWrapper{
+        width: 60px;
+    }
+}

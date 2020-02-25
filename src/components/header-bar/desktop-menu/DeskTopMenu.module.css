@@ -1,0 +1,24 @@
+.menuWrapper{
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.menuItem{
+    padding: 20px;
+    cursor: pointer;
+}
+.menuItem:hover{
+    color: green;
+    background-color: rgb(178, 219, 191) !important;
+    /* opacity: .7; */
+}
+.menuItem:active{
+    color: black;
+    /* background-color: white; */
+    opacity: 1;
+}
+
